@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct AccessorySetupKit_WiFiInfrastructureApp: App {
+struct WiFiNetworkSharingDemoApp: App {
+    private let accessoryManager = AccessoryManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(self.accessoryManager)
         }
     }
 }
