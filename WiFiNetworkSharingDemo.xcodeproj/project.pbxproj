@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9829A9E62EECF819001F9B9F /* WiFiInfrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9829A9932EECF6E3001F9B9F /* WiFiInfrastructure.framework */; };
 		9829A9F02EECF819001F9B9F /* TransportExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 9829A9E52EECF819001F9B9F /* TransportExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		986FB5412EEAB29D007C0616 /* REAMDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 986FB5402EEAB29D007C0616 /* REAMDE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +39,9 @@
 		9829A9932EECF6E3001F9B9F /* WiFiInfrastructure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WiFiInfrastructure.framework; path = System/Library/Frameworks/WiFiInfrastructure.framework; sourceTree = SDKROOT; };
 		9829A9E52EECF819001F9B9F /* TransportExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = TransportExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9829AA232EEE6370001F9B9F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		9829AA242EEE6453001F9B9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		986FB4E62EE91517007C0616 /* WiFiNetworkSharingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiNetworkSharingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FB4F82EE9152B007C0616 /* MyAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		986FB5402EEAB29D007C0616 /* REAMDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REAMDE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -154,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				9829AA232EEE6370001F9B9F /* demo.gif */,
-				986FB5402EEAB29D007C0616 /* REAMDE.md */,
+				9829AA242EEE6453001F9B9F /* README.md */,
 				986FB5382EEA7038007C0616 /* Shared */,
 				986FB4E82EE91517007C0616 /* WiFiNetworkSharingDemo */,
 				986FB4F92EE9152B007C0616 /* MyAccessory */,
@@ -300,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986FB5412EEAB29D007C0616 /* REAMDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
